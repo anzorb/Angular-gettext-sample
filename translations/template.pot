@@ -1,0 +1,16 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: index.html
+msgid ""
+msgid_plural "{{ num }} items selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: index.html
+msgid "{{ num }} items selected"
+msgid_plural "{{ num }} items selected"
+msgstr[0] ""
+msgstr[1] ""

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="prototypeApp">
+    <head>
+        <meta charset="utf-8">
+
+        <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+        Remove this if you use the .htaccess -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>index</title>
+        <meta name="description" content="">
+        <meta name="author" content="abashkhaz">
+
+        <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <!-- bower:js -->
+        <!-- endbower -->
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-gettext/dist/angular-gettext.min.js"></script>
+        <script src="translations.js"></script>    
+           
+    </head>
+
+    <body ng-controller="selection">        
+        <div translate translate-n="num" translate-plural="{{ num }} items selected">{{ num }} items selected</div>
+        <input type="text" translate-comments="this line is for n00bs" translate translate-n="num" translate-plural="{{ num }} items selected" value="{{ num + ' items selected' | translate }}"/>       
+        <script src="app.js"></script>             
+    </body>
+</html>
