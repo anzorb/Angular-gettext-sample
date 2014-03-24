@@ -23,8 +23,10 @@
     </head>
 
     <body ng-controller="selection">        
+        <p>Example of using textContent within a node</p>
         <div translate translate-n="num" translate-plural="{{ num }} items selected">{{ num }} items selected</div>
-        <input type="text" translate-comments="this line is for n00bs" translate translate-n="num" translate-plural="{{ num }} items selected" value="{{ num + ' items selected' | translate }}"/>       
+        <p>Example of using attributes:</p>
+        <input type="text" value="{{ num + ' items selected' | translate }}"/>       
         <script src="app.js"></script>             
     </body>
 </html>

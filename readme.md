@@ -1,3 +1,5 @@
+Sample AngularJS application that provides gettext internationalization and pluralization via the angular-gettext plugin.
+
 install pre-reqs:
 	
 	bower install
